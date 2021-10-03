@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/description"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/loan_input"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:hint="@string/loan_hint"/>
+
+    <EditText
+        android:id="@+id/interest_input"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/interest_hint"/>
+
+    <EditText
+        android:id="@+id/years_input"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/term_hint"/>
+
+    <EditText
+        android:id="@+id/minimum_input"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/minimum_hint"/>
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/calculate_button" />
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/cat"
+        android:contentDescription="@string/cat"
+        android:visibility="invisible"/>
+
+</LinearLayout>

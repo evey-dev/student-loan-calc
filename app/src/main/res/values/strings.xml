@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Student Loan Calculator</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="description">Enter the following to get your monthly\npayment and total interest</string>
+    <string name="loan_hint">Loan Amount</string>
+    <string name="interest_hint">Interest Rate (% / year)</string>
+    <string name="term_hint">Loan Term (years)</string>
+    <string name="minimum_hint">Minimum Payment</string>
+    <string name="cat">cat_description</string>
+</resources>
